@@ -12,12 +12,12 @@ pipeline {
                 echo 'Analyse the requirement'
             }
         }
-        stage('Design) {
+        stage('Design') {
             steps {
                 echo 'desinging the technical requirement'
             }
         }
-        stage('Development) {
+        stage('Development') {
             steps {
                 echo 'Build the code'
             }
